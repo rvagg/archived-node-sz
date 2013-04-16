@@ -1,5 +1,5 @@
-language: node_js
 node_js:
+language: node_js
   - 0.8
   - "0.10"
 branches:
@@ -8,4 +8,3 @@ branches:
 notifications:
   email:
     - rod@vagg.org
-
