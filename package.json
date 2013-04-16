@@ -1,0 +1,27 @@
+{
+    "name"             : "sz"
+  , "description"      : "Determine the size / dimensions of an image"
+  , "version"          : "0.0.1"
+  , "homepage"         : "https://github.com/rvagg/node-sz"
+  , "authors"          : [
+        "Rod Vagg <rod@vagg.org> (https://github.com/rvagg)"
+    ]
+  , "keywords"         : [ "image", "size", "canvas" ]
+  , "main"             : "./sz.js"
+  , "repository"       : {
+        "type"             : "git"
+      , "url"              : "https://github.com/rvagg/node-sz.git"
+    }
+  , "dependencies"     : {
+        "canvas"           : "~1.0.2"
+    }
+  , "peerDependencies" : {
+    }
+  , "devDependencies"  : {
+        "tap"              : "*"
+    }
+  , "scripts"          : {
+        "test"             : "node ./test.js"
+    }
+  , "license"          : "MIT"
+}
