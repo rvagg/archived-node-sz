@@ -1,4 +1,4 @@
-# sz [![Build Status](https://secure.travis-ci.org/rvagg/node-sz.png)](http://travis-ci.org/rvagg/node-sz)
+# sz
 
 **Determine the size of an image**
 
