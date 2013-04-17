@@ -4,6 +4,13 @@
 
 Depends on [node-canvas](https://github.com/LearnBoost/node-canvas) which has special [build instructions](https://github.com/LearnBoost/node-canvas/wiki/_pages) as it requires **Cairo** to be installed on your system.
 
+## Related
+
+ * **[crp](https://github.com/rvagg/node-crp)** *crops* images
+ * **[rsz](https://github.com/rvagg/node-rsz)** *resizes* images
+
+## API & Example
+
 You may provide either a `String` specifying the path to the image or a `Buffer` containing the image data and you will receive an object with `'height'` and `'width'` properties on your callback
 
 ```js
