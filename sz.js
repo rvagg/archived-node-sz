@@ -1,4 +1,5 @@
-const canvas = require('canvas')
+const fs     = require('fs')
+    , canvas = require('canvas')
 
 module.exports = function (src, callback) {
   var image = new canvas.Image()
@@ -8,5 +9,15 @@ module.exports = function (src, callback) {
   image.onerror = function (err) {
     callback(err)
   }
-  image.src = src
+
+  // for Windows compatibility we're only going to pass a Buffer to src
+  if (Buffer.isBuffer(src)) {
+    image.src = src
+  } else {
+    fs.readFile(src, function (err, buf) {
+      if (err)
+        return callback(err)
+      image.src = buf
+    })
+  }
 }
