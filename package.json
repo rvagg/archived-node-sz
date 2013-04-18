@@ -1,7 +1,7 @@
 {
     "name"             : "sz"
   , "description"      : "Determine the size / dimensions of an image"
-  , "version"          : "0.0.1"
+  , "version"          : "0.0.2"
   , "homepage"         : "https://github.com/rvagg/node-sz"
   , "authors"          : [
         "Rod Vagg <rod@vagg.org> (https://github.com/rvagg)"
