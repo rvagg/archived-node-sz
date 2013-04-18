@@ -8,6 +8,7 @@ Depends on [node-canvas](https://github.com/LearnBoost/node-canvas) which has sp
 
  * **[crp](https://github.com/rvagg/node-crp)** *crops* images
  * **[rsz](https://github.com/rvagg/node-rsz)** *resizes* images
+ * **[thmb](https://github.com/rvagg/node-thmb)** makes *thumbnails* from images
 
 ## API & Example
 
